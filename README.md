@@ -32,6 +32,10 @@
 - [Google Analytics Hook](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/hooks/google_analytics_hook.py)
 - [Google Analytics to S3 Operator](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/operators/google_analytics_reporting_to_s3_operator.py)
 
+### [Hubspot Plugin](https://github.com/airflow-plugins/hubspot_plugin)
+- [Hubspot Hook](https://github.com/airflow-plugins/hubspot_plugin/blob/master/hooks/hubspot_hook.py)
+- [Hubspot to S3 Operator](https://github.com/airflow-plugins/hubspot_plugin/blob/master/operators/hubspot_to_s3_operator.py)
+
 ### [Intercom Plugin](https://github.com/airflow-plugins/intercom_plugin)
 - [Intercom Hook](https://github.com/airflow-plugins/intercom_plugin/blob/master/hooks/intercom_hook.py)
 - [Intercom to S3 Operator](https://github.com/airflow-plugins/intercom_plugin/blob/master/operators/intercom_to_s3_operator.py)
@@ -39,6 +43,10 @@
 ### [IMAP Plugin](https://github.com/airflow-plugins/imap_plugin)
 - [IMAP Hook](https://github.com/airflow-plugins/imap_plugin/blob/master/hooks/imap_hook.py)
 - [IMAP To S3 Operator](https://github.com/airflow-plugins/imap_plugin/blob/master/operators/imap_to_s3_operator.py)
+
+### [Marketo Plugin](https://github.com/airflow-plugins/marketo_plugin)
+- [Marketo Hook](https://github.com/airflow-plugins/marketo_plugin/blob/master/hooks/marketo_hook.py)
+- [Marketo to S3 Operator](https://github.com/airflow-plugins/marketo_plugin/blob/master/operators/marketo_to_s3_operator.py)
 
 ### [MySQL Plugin](https://github.com/airflow-plugins/mysql_plugin)
 - [AstroMySQL Hook](https://github.com/airflow-plugins/mysql_plugin/blob/master/hooks/astro_mysql_hook.py)
