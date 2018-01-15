@@ -46,7 +46,7 @@
 - [MySQL to S3 Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/mysql_to_s3_operator.py)
 
 ### [Pardot Plugin](https://github.com/airflow-plugins/pardot_plugin)
-- [Pardot Hook[(https://github.com/airflow-plugins/pardot_plugin/blob/master/hooks/pardot_hook.py)
+- [Pardot Hook](https://github.com/airflow-plugins/pardot_plugin/blob/master/hooks/pardot_hook.py)
 - [Pardot to S3 Operator](https://github.com/airflow-plugins/pardot_plugin/blob/master/operators/pardot_to_s3_operator.py)
 
 ### [Redshift Plugin](https://github.com/airflow-plugins/s3_to_redshift_operator)
