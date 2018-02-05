@@ -57,6 +57,9 @@
 - [Pardot Hook](https://github.com/airflow-plugins/pardot_plugin/blob/master/hooks/pardot_hook.py)
 - [Pardot to S3 Operator](https://github.com/airflow-plugins/pardot_plugin/blob/master/operators/pardot_to_s3_operator.py)
 
+### [Rate Limit Plugin](https://github.com/airflow-plugins/rate_limit_plugin)
+- [Rate Limit Operator](https://github.com/airflow-plugins/rate_limit_plugin/blob/master/operators/rate_limit_operator.py)
+
 ### [Redshift Plugin](https://github.com/airflow-plugins/s3_to_redshift_operator)
 - [S3 To Redshift Operator](https://github.com/airflow-plugins/s3_to_redshift_operator/blob/master/operators/s3_to_redshift.py)
 
