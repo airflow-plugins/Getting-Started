@@ -53,6 +53,11 @@
 - [S3 To MySQL Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/s3_to_mysql_operator.py)
 - [MySQL to S3 Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/mysql_to_s3_operator.py)
 
+### [Mongo Plugin](https://github.com/airflow-plugins/mongo_plugin)
+- [Mongo Hook](https://github.com/airflow-plugins/mongo_plugin/blob/master/hooks/mongo_hook.py)
+- [Mongo to S3 Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/mongo_to_s3_operator.py)
+- [S3 To Mongo Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/s3_to_mongo_operator.py)
+
 ### [Pardot Plugin](https://github.com/airflow-plugins/pardot_plugin)
 - [Pardot Hook](https://github.com/airflow-plugins/pardot_plugin/blob/master/hooks/pardot_hook.py)
 - [Pardot to S3 Operator](https://github.com/airflow-plugins/pardot_plugin/blob/master/operators/pardot_to_s3_operator.py)
