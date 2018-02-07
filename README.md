@@ -30,7 +30,8 @@
 
 ### [Google Analytics Plugin](https://github.com/airflow-plugins/google_analytics_plugin)
 - [Google Analytics Hook](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/hooks/google_analytics_hook.py)
-- [Google Analytics to S3 Operator](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/operators/google_analytics_reporting_to_s3_operator.py)
+- [Google Analytics Account Summaries to S3 Operator](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/operators/google_analytics_account_summaries_to_s3_operator.py)
+- [Google Analytics Reporting to S3 Operator](https://github.com/airflow-plugins/google_analytics_plugin/blob/master/operators/google_analytics_reporting_to_s3_operator.py)
 
 ### [Hubspot Plugin](https://github.com/airflow-plugins/hubspot_plugin)
 - [Hubspot Hook](https://github.com/airflow-plugins/hubspot_plugin/blob/master/hooks/hubspot_hook.py)
