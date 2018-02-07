@@ -48,15 +48,15 @@
 - [Marketo Hook](https://github.com/airflow-plugins/marketo_plugin/blob/master/hooks/marketo_hook.py)
 - [Marketo to S3 Operator](https://github.com/airflow-plugins/marketo_plugin/blob/master/operators/marketo_to_s3_operator.py)
 
-### [MySQL Plugin](https://github.com/airflow-plugins/mysql_plugin)
-- [AstroMySQL Hook](https://github.com/airflow-plugins/mysql_plugin/blob/master/hooks/astro_mysql_hook.py)
-- [S3 To MySQL Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/s3_to_mysql_operator.py)
-- [MySQL to S3 Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/mysql_to_s3_operator.py)
-
 ### [Mongo Plugin](https://github.com/airflow-plugins/mongo_plugin)
 - [Mongo Hook](https://github.com/airflow-plugins/mongo_plugin/blob/master/hooks/mongo_hook.py)
 - [Mongo to S3 Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/mongo_to_s3_operator.py)
 - [S3 To Mongo Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/s3_to_mongo_operator.py)
+
+### [MySQL Plugin](https://github.com/airflow-plugins/mysql_plugin)
+- [AstroMySQL Hook](https://github.com/airflow-plugins/mysql_plugin/blob/master/hooks/astro_mysql_hook.py)
+- [S3 To MySQL Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/s3_to_mysql_operator.py)
+- [MySQL to S3 Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/mysql_to_s3_operator.py)
 
 ### [Pardot Plugin](https://github.com/airflow-plugins/pardot_plugin)
 - [Pardot Hook](https://github.com/airflow-plugins/pardot_plugin/blob/master/hooks/pardot_hook.py)
