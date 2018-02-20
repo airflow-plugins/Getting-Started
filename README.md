@@ -45,6 +45,10 @@
 - [IMAP Hook](https://github.com/airflow-plugins/imap_plugin/blob/master/hooks/imap_hook.py)
 - [IMAP To S3 Operator](https://github.com/airflow-plugins/imap_plugin/blob/master/operators/imap_to_s3_operator.py)
 
+### [Mailchimp Plugin](https://github.com/airflow-plugins/mailchimp_plugin)
+- [Mailchimp Hook](https://github.com/airflow-plugins/mailchimp_plugin/blob/master/hooks/mailchimp_hook.py)
+- [Mailchimp to S3 Operator](https://github.com/airflow-plugins/mailchimp_plugin/blob/master/operators/mailchimp_to_s3_operator.py)
+
 ### [Marketo Plugin](https://github.com/airflow-plugins/marketo_plugin)
 - [Marketo Hook](https://github.com/airflow-plugins/marketo_plugin/blob/master/hooks/marketo_hook.py)
 - [Marketo to S3 Operator](https://github.com/airflow-plugins/marketo_plugin/blob/master/operators/marketo_to_s3_operator.py)
@@ -73,6 +77,10 @@
 - [Salesforce Hook](https://github.com/airflow-plugins/salesforce_plugin/blob/master/hooks/salesforce_hook.py)
 - [Salesforce To S3 Operator](https://github.com/airflow-plugins/salesforce_plugin/blob/master/operators/salesforce_to_s3_operator.py)
 
+### [Sendgrid Plugin](https://github.com/airflow-plugins/sendgrid_plugin)
+- [Sendgrid Hook](https://github.com/airflow-plugins/sendgrid_plugin/blob/master/hooks/sendgrid_hook.py)
+- [Sendgrid to S3 Operator](https://github.com/airflow-plugins/sendgrid_plugin/blob/master/operators/sendgrid_to_s3_operator.py)
+
 ### [SFTP Plugin](https://github.com/airflow-plugins/sftp_plugin)
 - [SFTP To S3 Operator](https://github.com/airflow-plugins/sftp_plugin/blob/master/operators.py/sftp_to_s3_operator.py)
 
@@ -85,3 +93,7 @@
 ### [Stripe Plugin](https://github.com/airflow-plugins/stripe_plugin)
 - [Stripe Hook](https://github.com/airflow-plugins/stripe_plugin/blob/master/hooks/stripe_hook.py)
 - [Stripe to S3 Operator](https://github.com/airflow-plugins/stripe_plugin/blob/master/operators/stripe_to_s3_operator.py)
+
+### [Trello Plugin](https://github.com/airflow-plugins/trello_plugin)
+- [Trello Hook](https://github.com/airflow-plugins/trello_plugin/blob/master/hooks/trello_hook.py)
+- [Trello to S3 Operator](https://github.com/airflow-plugins/trello_plugin/blob/master/operators/trello_to_s3_operator.py)
