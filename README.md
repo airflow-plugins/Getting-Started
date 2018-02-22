@@ -20,6 +20,9 @@
 - [Chargify Hook](https://github.com/airflow-plugins/chargify_plugin/blob/master/hooks/chargify_hook.py)
 - [Chargify to S3 Operator](https://github.com/airflow-plugins/chargify_plugin/blob/master/operators/chargify_to_s3_operator.py)
 
+### [Dummy Sensor Plugin](https://github.com/airflow-plugins/dummy_sensor_plugin)
+- [Dummy Sensor Operator](https://github.com/airflow-plugins/dummy_sensor_plugin/blob/master/operators/dummy_sensor_operator.py)
+
 ### [Facebook Ads Plugin](https://github.com/airflow-plugins/facebook_ads_plugin)
 - [Facebook Ads Hook](https://github.com/airflow-plugins/facebook_ads_plugin/blob/master/hooks/facebook_ads_hook.py)
 - [Facebook Ads to S3 Operator](https://github.com/airflow-plugins/facebook_ads_plugin/blob/master/operators/facebook_ads_to_s3_operator.py)
