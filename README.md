@@ -61,6 +61,10 @@
 - [Mongo to S3 Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/mongo_to_s3_operator.py)
 - [S3 To Mongo Operator](https://github.com/airflow-plugins/mongo_plugin/blob/master/operators/s3_to_mongo_operator.py)
 
+### [MsSQL Plugin](https://github.com/airflow-plugins/mssql_plugin)
+- [AstroMsSql Hook](https://github.com/airflow-plugins/mssql_plugin/blob/master/hooks/astro_mssql_hook.py)
+- [MsSQL to S3 Operator](https://github.com/airflow-plugins/mssql_plugin/blob/master/operators/mssql_to_s3_operator.py)
+
 ### [MySQL Plugin](https://github.com/airflow-plugins/mysql_plugin)
 - [AstroMySQL Hook](https://github.com/airflow-plugins/mysql_plugin/blob/master/hooks/astro_mysql_hook.py)
 - [S3 To MySQL Operator](https://github.com/airflow-plugins/mysql_plugin/blob/master/operators/s3_to_mysql_operator.py)
