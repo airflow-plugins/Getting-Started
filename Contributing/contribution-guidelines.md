@@ -1,9 +1,11 @@
 # Contribution Guidelines
 
-### Documentation
+## Documentation
+
 Please include a `README.md` with a description of what can be found in the plugin and all dependencies that should be included.
 
 Within each plugin, a brief description of required fields, behavior to note, etc. should be included.
+
 ```
 class GithubToS3Operator(BaseOperator):
     """
@@ -42,10 +44,12 @@ class GithubToS3Operator(BaseOperator):
     """
 ```
 
-### Formatting
+## Formatting
 
-#### Imports
+### Imports
+
 For consistency, please format your imports in the following order:
+
 ```
 # Widely Available Packages -- if it's a core Python package or on PyPi, put it here.
 from tempfile import NamedTemporaryFile
@@ -66,10 +70,12 @@ from airflow.hooks.http_hook import HttpHook
 from anything import your_code
 ```
 
-#### Tabs vs. Spaces
+### Tabs vs. Spaces
+
 ....we don't really care.
 
-#### File Structure
+### File Structure
+
 Each hook and operator is kept in a separate file so that they can be easily reorganized without issue. In a typical plugin, you'll see the following structure.
 
 ```
@@ -95,7 +101,6 @@ from my_awesome_plugin.hooks.my_first_hook import MyFirstHook
 from my_awesome_plugin.hooks.my_second_hook import MySecondHook
 from my_awesome_plugin.hooks.my_third_hook import MyThirdHook
 
-
 class my_awesome_plugin(AirflowPlugin):
     name = "my_awesome_plugin"
     operators = [MyFirstOperator, MySecondOperator]
@@ -108,10 +113,12 @@ class my_awesome_plugin(AirflowPlugin):
     menu_links = []
 ```
 
-### Schemas
+## Schemas
+
 Many of the plugins added involve moving data from one place to another. In cases where this data is going to be in a predictable structure (i.e. from a publicly available API like Stripe, Salesforce, Hubspot, etc.), it is best practice to include a schema in the plugin for each available endpoint. For the sake of simplicity, datatypes conforming to the [ANSI SQL](https://www.w3schools.com/sql/sql_intro.asp) standard are typically used.
 
 See the schema mapping in the [Stripe Plugin](https://github.com/airflow-plugins/stripe_plugin/tree/master/schemas) for an example of how to organize the schemas.
 
-### Licensing
+## Licensing
+
 As mentioned in the readme, all repos in the `airflow-plugins` org have an Apache 2.0 license. If a contribution is made with a stipulation that another license must be use, we will unfortunately be forced to decline.
