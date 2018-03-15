@@ -30,7 +30,7 @@ aiflow_plugins = MenuLink(
     url='https://github.com/airflow-plugins')
 ```
 
-Lastly, we're going to import `MenuLink` objects we've defined above into our Airflow Instance using the Airflow Manag
+Lastly, we're going to import `MenuLink` objects we've defined above into our Airflow Instance using the Airflow Manager.
 ```
 # Defining the plugin class
 class AirflowTestPlugin(AirflowPlugin):
