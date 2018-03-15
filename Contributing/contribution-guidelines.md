@@ -3,7 +3,7 @@
 ### Documentation
 Please include a `README.md` with a description of what can be found in the plugin and all dependencies that should be included.
 
-Within each plugin, a brief description of required fields, behavior to note, etc.
+Within each plugin, a brief description of required fields, behavior to note, etc. should be included.
 ```
 class GithubToS3Operator(BaseOperator):
     """
