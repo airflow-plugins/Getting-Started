@@ -1,0 +1,16 @@
+# Python ignores
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+
+# Astro ignores
+.astro/deploys
+.astro/airflow/logs/
+.astro/airflow/postgres/
+
+# IDE configs
+.vscode/
+.idea/
