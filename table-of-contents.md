@@ -52,6 +52,10 @@
 - [Mailchimp Hook](https://github.com/airflow-plugins/mailchimp_plugin/blob/master/hooks/mailchimp_hook.py)
 - [Mailchimp to S3 Operator](https://github.com/airflow-plugins/mailchimp_plugin/blob/master/operators/mailchimp_to_s3_operator.py)
 
+### [Mailgun Plugin](https://github.com/airflow-plugins/mailgun_plugin)
+- [Mailgun Hook](https://github.com/airflow-plugins/mailgun_plugin/blob/master/hooks/mailgun_hook.py)
+- [Mailgun Operator](https://github.com/airflow-plugins/mailgun_plugin/blob/master/operators/mailgun_operator.py)
+
 ### [Marketo Plugin](https://github.com/airflow-plugins/marketo_plugin)
 - [Marketo Hook](https://github.com/airflow-plugins/marketo_plugin/blob/master/hooks/marketo_hook.py)
 - [Marketo to S3 Operator](https://github.com/airflow-plugins/marketo_plugin/blob/master/operators/marketo_to_s3_operator.py)
