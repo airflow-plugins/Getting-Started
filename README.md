@@ -11,7 +11,7 @@ Tutorials can be found in the `Tutorials` folder. Example tutorials currently av
 - [Adding UI Modifications](https://github.com/airflow-plugins/Getting-Started/blob/master/Tutorial/creating-ui-modification.md)
 
 ## Google Authentication
-Because Google Cloud Platform's authentication requires a keyfile for a service account, accessing tools like BigQuery from a containerized environment (without persistent local storage) can be somewhat complex. The GCP Base Hook solves this in Airflow 1.9 by allowing the contents of the keyfile to be put in an Airflow connection object but, for those still using 1.8 and lower, we've put together a quick tutorial on how to modify the existing hooks to as a workaround.
+Because Google Cloud Platform's authentication requires a keyfile for a service account, accessing tools like BigQuery from a containerized environment (without persistent local storage) can be somewhat complex. The GCP Base Hook solves this in Airflow 1.9 by allowing the contents of the keyfile to be put in an Airflow connection object but, for those still using 1.8 and lower, we've put together [a quick tutorial](Tutorial/gcp_example/README.md) on how to used modified hooks to as a workaround.
 
 ## Contributions
 If you have a plugin that you've built or nefariously acquired (no judgement), we'd be more than happy to have it added to the org. General guidelines for how to get your plugin into shape can be found [here](https://github.com/airflow-plugins/Getting-Started/blob/master/Contributing/contribution-guidelines.md).
