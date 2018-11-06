@@ -7,7 +7,6 @@ Generally one repo is made per plugin with related operators and hooks are group
 ## Hello, World.
 Tutorials can be found in the `Tutorials` folder. Example tutorials currently available include:
 - [Creating a Hook](https://github.com/airflow-plugins/Getting-Started/blob/master/Tutorial/creating-hook.md)
-- [Creating an Operator](https://github.com/airflow-plugins/Getting-Started/blob/master/Tutorial/creating-operator.md)
 - [Adding UI Modifications](https://github.com/airflow-plugins/Getting-Started/blob/master/Tutorial/creating-ui-modification.md)
 
 ## Google Authentication
